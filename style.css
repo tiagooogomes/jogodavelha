@@ -53,7 +53,6 @@ li{
     color: #B8B7BD;
 }
 
-
 #esquerda{
     width: 70%;
     display: flex;
@@ -62,39 +61,17 @@ li{
     flex-direction: column;
 }
 
-
 #direita{
     width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 #resultado{
     color: rgb(218, 197, 12);;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #campo1{
     border-top-color: #0E1A26;
