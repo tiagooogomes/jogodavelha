@@ -5,15 +5,14 @@ let jogoTerminado = false;
 const tabela = [ ['', '', ''],
                  ['', '', ''],
                  ['', '', ''] ];
-
+                 
 mudarNoJogo();
 
 function mudarNoJogo(){
-    let campo = document.getElementsByClassName("campo");
+    const campo = document.getElementsByClassName("campo");
     const resultado = document.getElementById("resultado");
     const texto = document.getElementById("mensagem");
-
-    let mostrarJogador1 = document.getElementById("jogador");
+    const mostrarJogador1 = document.getElementById("jogador");
 
     for (let i = 0; i < campo.length; i++){
 
@@ -55,7 +54,7 @@ function mudarNoJogo(){
                         tabela[2][2] = 1;
                     }
                     
-                    if ((tabela[0][0] == 1 && tabela[0][1] == 1 && tabela[0][2] == 1)  ||
+                    if ((tabela[0][0] == 1 && tabela[0][1] == 1 && tabela[0][2] == 1) ||
                         (tabela[1][0] == 1 && tabela[1][1] == 1 && tabela[1][2] == 1) ||
                         (tabela[2][0] == 1 && tabela[2][1] == 1 && tabela[2][2] == 1) ||
                         (tabela[0][0] == 1 && tabela[1][0] == 1 && tabela[2][0] == 1) ||
